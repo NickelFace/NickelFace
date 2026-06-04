@@ -44,8 +44,8 @@ I run production networks on Cisco and MikroTik, and I treat infrastructure as c
 
 ## Certifications & learning
 
-- **MTCNA** — MikroTik Certified Network Associate
-- **LPIC-2** — Linux Professional Institute
+- **LPIC-2** (202-450) — Linux Professional Institute
+- **MTCNA / MTCWE / MTCIPv6E** — MikroTik Certified (Network Associate, Wireless, IPv6)
 - Currently studying: **CCNA 200-301** and **AWS Solutions Architect Associate**
 
 ---
