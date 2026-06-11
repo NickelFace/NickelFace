@@ -10,11 +10,15 @@ I run production networks on Cisco and MikroTik, and I treat infrastructure as c
 
 | Project | What it shows |
 |---|---|
-| [homelab-infrastructure](https://github.com/NickelFace/homelab-infrastructure) | Real self-hosted lab as code: Terraform (KVM/libvirt) + Ansible + Docker Compose running Samba AD, mail, Nginx, Prometheus/Grafana, ZeroTier |
-| [OTUS-Network-Engineer](https://github.com/NickelFace/OTUS-Network-Engineer) | Enterprise network design — multi-site WAN, BGP/OSPF, DMVPN/IPSec on Cisco IOS / EVE-NG |
-| [OTUS-Network-Architect](https://github.com/NickelFace/OTUS-Network-Architect) | Network architecture project work |
-| [maks.top](https://github.com/NickelFace/maks.top) | Hugo knowledge base — published technical notes and lab write-ups |
-| [ccna-200-301-study](https://github.com/NickelFace/ccna-200-301-study) | CCNA 200-301 study notes and labs |
+| [kubernetes-manifests](https://github.com/NickelFace/kubernetes-manifests) | Production-grade Kustomize (dev/prod overlays): non-root containers, drop ALL caps, read-only rootfs, default-deny NetworkPolicy, HPA, PDB, ResourceQuota |
+| [mlops-pipeline](https://github.com/NickelFace/mlops-pipeline) | End-to-end MLOps: DVC data versioning, MLflow experiment tracking, FastAPI model serving, containerised via GHCR CI, deployed to Kubernetes |
+| [homelab-infrastructure](https://github.com/NickelFace/homelab-infrastructure) | Self-hosted lab as code: Terraform (KVM/libvirt) + Ansible (hardening, Samba AD, mail, Nginx, ZeroTier) + Docker Compose |
+| [cicd-pipeline-demo](https://github.com/NickelFace/cicd-pipeline-demo) | Zero-credential CI/CD: ruff → pytest → Docker Buildx → GHCR, non-root FastAPI container, green on every push |
+| [aws-lab-terraform](https://github.com/NickelFace/aws-lab-terraform) | Modular AWS IaC: VPC, EC2, S3, IAM with least-privilege instance roles and encrypted versioned S3 |
+| [monitoring-stack](https://github.com/NickelFace/monitoring-stack) | Prometheus + Grafana + Alertmanager as code — pinned versions, alert rules, auto-provisioned dashboards |
+| [OTUS-Network-Architect](https://github.com/NickelFace/OTUS-Network-Architect) | VxLAN/EVPN CLOS fabric: 3 spines / 4 leaves, eBGP underlay, EVPN route reflectors, Multipod on Cisco NX-OS |
+| [OTUS-Network-Engineer](https://github.com/NickelFace/OTUS-Network-Engineer) | Multi-site WAN: BGP inter-AS, multi-area OSPF, DMVPN/IPSec overlays, HSRP/EtherChannel on Cisco IOS / EVE-NG |
+| [maks.top](https://github.com/NickelFace/maks.top) | 360+ technical articles (Linux, AWS, networking) built with Hugo, deployed via GitHub Actions |
 
 ---
 
@@ -34,6 +38,11 @@ I run production networks on Cisco and MikroTik, and I treat infrastructure as c
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![KVM](https://img.shields.io/badge/KVM-libvirt-F05032?logo=linux&logoColor=white)
 
+**CI/CD & Containers**
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?logo=kubernetes&logoColor=white)
+
 **Observability & Languages**
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
@@ -52,6 +61,7 @@ I run production networks on Cisco and MikroTik, and I treat infrastructure as c
 
 ## Reach me
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Maksim_Lopunov-0A66C2?logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
 [![Email](https://img.shields.io/badge/Email-lopunov.ms@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:lopunov.ms@gmail.com)
 [![Credly](https://img.shields.io/badge/Credly-verified_badges-FF6B00?logo=credly&logoColor=white)](https://www.credly.com/badges/b47b3e1d-e1d4-4a65-97e8-d97a58067985)
 
