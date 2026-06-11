@@ -10,8 +10,6 @@ I run production networks on Cisco and MikroTik, and I treat infrastructure as c
 
 | Project | What it shows |
 |---|---|
-| [kubernetes-manifests](https://github.com/NickelFace/kubernetes-manifests) | Production-grade Kustomize (dev/prod overlays): non-root containers, drop ALL caps, read-only rootfs, default-deny NetworkPolicy, HPA, PDB, ResourceQuota |
-| [mlops-pipeline](https://github.com/NickelFace/mlops-pipeline) | End-to-end MLOps: DVC data versioning, MLflow experiment tracking, FastAPI model serving, containerised via GHCR CI, deployed to Kubernetes |
 | [homelab-infrastructure](https://github.com/NickelFace/homelab-infrastructure) | Self-hosted lab as code: Terraform (KVM/libvirt) + Ansible (hardening, Samba AD, mail, Nginx, ZeroTier) + Docker Compose |
 | [cicd-pipeline-demo](https://github.com/NickelFace/cicd-pipeline-demo) | Zero-credential CI/CD: ruff → pytest → Docker Buildx → GHCR, non-root FastAPI container, green on every push |
 | [aws-lab-terraform](https://github.com/NickelFace/aws-lab-terraform) | Modular AWS IaC: VPC, EC2, S3, IAM with least-privilege instance roles and encrypted versioned S3 |
