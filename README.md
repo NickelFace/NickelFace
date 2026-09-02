@@ -11,9 +11,6 @@ I run production networks on Cisco and MikroTik, and I treat infrastructure as c
 | Project | What it shows |
 |---|---|
 | [homelab-infrastructure](https://github.com/NickelFace/homelab-infrastructure) | Self-hosted lab as code: Terraform (KVM/libvirt) + Ansible (hardening, Samba AD, mail, Nginx, ZeroTier) + Docker Compose |
-| [cicd-pipeline-demo](https://github.com/NickelFace/cicd-pipeline-demo) | Zero-credential CI/CD: ruff → pytest → Docker Buildx → GHCR, non-root FastAPI container, green on every push |
-| [aws-lab-terraform](https://github.com/NickelFace/aws-lab-terraform) | Modular AWS IaC: VPC, EC2, S3, IAM with least-privilege instance roles and encrypted versioned S3 |
-| [monitoring-stack](https://github.com/NickelFace/monitoring-stack) | Prometheus + Grafana + Alertmanager as code — pinned versions, alert rules, auto-provisioned dashboards |
 | [OTUS-Network-Architect](https://github.com/NickelFace/OTUS-Network-Architect) | VxLAN/EVPN CLOS fabric: 3 spines / 4 leaves, eBGP underlay, EVPN route reflectors, Multipod on Cisco NX-OS |
 | [OTUS-Network-Engineer](https://github.com/NickelFace/OTUS-Network-Engineer) | Multi-site WAN: BGP inter-AS, multi-area OSPF, DMVPN/IPSec overlays, HSRP/EtherChannel on Cisco IOS / EVE-NG |
 | [maks.top](https://github.com/NickelFace/maks.top) | 360+ technical articles (Linux, AWS, networking) built with Hugo, deployed via GitHub Actions |
@@ -38,12 +35,8 @@ I run production networks on Cisco and MikroTik, and I treat infrastructure as c
 
 **CI/CD & Containers**
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
-![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?logo=kubernetes&logoColor=white)
 
-**Observability & Languages**
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+**Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
 
